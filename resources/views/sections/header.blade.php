@@ -12,11 +12,14 @@
   <x-hello class="bg-red-600 text-white">
     <span>Hello World</span>
   </x-hello> --}}
-  <x-button type="outline">
-    Button 1
+
+  <x-button type="outline" :href="$btn['url']">
+    {{ $btn['title'] }}
   </x-button>
-  <x-button >
-    Okay working
+
+  <x-button type="primary" :href="$btn2['url']">
+    {{ $btn2['title'] }}
   </x-button>
+
 
 </header>

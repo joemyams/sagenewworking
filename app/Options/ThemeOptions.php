@@ -34,7 +34,9 @@ class ThemeOptions extends Field
             // ->addRepeater('items')
             //     ->addText('item')
             // ->endRepeater();
-            ->addImage('logo', ['label' => 'Logo', 'return_format' => 'id']);
+            ->addImage('logo', ['label' => 'Logo', 'return_format' => 'id'])
+            ->addLink('ctabutton_1', ['label' => 'CTA Button 1'])
+            ->addLink('ctabutton_2', ['label' => 'CTA Button 2']);
 
         return $themeOptions->build();
     }
