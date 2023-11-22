@@ -8,4 +8,15 @@
       {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
     </nav>
   @endif
+{{--
+  <x-hello class="bg-red-600 text-white">
+    <span>Hello World</span>
+  </x-hello> --}}
+  <x-button type="outline">
+    Button 1
+  </x-button>
+  <x-button >
+    Okay working
+  </x-button>
+
 </header>
